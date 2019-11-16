@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,18 @@
 		181B5EF12364680A002E7246 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181B5EEF2364680A002E7246 /* LaunchScreen.storyboard */; };
 		181B5EFC2364680A002E7246 /* fastiniTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181B5EFB2364680A002E7246 /* fastiniTests.swift */; };
 		181B5F072364680A002E7246 /* fastiniUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181B5F062364680A002E7246 /* fastiniUITests.swift */; };
+		181B5F152364AE52002E7246 /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181B5F142364AE52002E7246 /* SideMenuViewController.swift */; };
+		181B5F172364B0AC002E7246 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181B5F162364B0AC002E7246 /* CardView.swift */; };
+		181B5F202365E431002E7246 /* LoginViewControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181B5F1F2365E431002E7246 /* LoginViewControllerViewController.swift */; };
+		181B5F252365E557002E7246 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181B5F222365E557002E7246 /* Constants.swift */; };
+		181B5F262365E557002E7246 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181B5F232365E557002E7246 /* APIClient.swift */; };
+		181B5F272365E557002E7246 /* APIRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181B5F242365E557002E7246 /* APIRouter.swift */; };
+		181B5F292365E5D7002E7246 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181B5F282365E5D7002E7246 /* Alert.swift */; };
+		181B5F2B2365E5EE002E7246 /* UserDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181B5F2A2365E5EE002E7246 /* UserDefault.swift */; };
+		181B5F2D2365E610002E7246 /* DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181B5F2C2365E610002E7246 /* DateFormatter.swift */; };
+		5AF13439BA4D03BAA8404ACB /* Pods_fastini.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2369206FD9BD7E66DAD2FA5 /* Pods_fastini.framework */; };
+		B13360962EE18AF80E0DD50E /* Pods_fastiniUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 687A80B21BEA2E6761CB0844 /* Pods_fastiniUITests.framework */; };
+		D2BC2E7CFFB15C52DC2007A8 /* Pods_fastiniTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13FB5C5591A72B5A6E252748 /* Pods_fastiniTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +47,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		13FB5C5591A72B5A6E252748 /* Pods_fastiniTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_fastiniTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		181B5EE123646808002E7246 /* fastini.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fastini.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		181B5EE423646808002E7246 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		181B5EE623646808002E7246 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +62,23 @@
 		181B5F022364680A002E7246 /* fastiniUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fastiniUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		181B5F062364680A002E7246 /* fastiniUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fastiniUITests.swift; sourceTree = "<group>"; };
 		181B5F082364680A002E7246 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		181B5F142364AE52002E7246 /* SideMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
+		181B5F162364B0AC002E7246 /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		181B5F1F2365E431002E7246 /* LoginViewControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewControllerViewController.swift; sourceTree = "<group>"; };
+		181B5F222365E557002E7246 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		181B5F232365E557002E7246 /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		181B5F242365E557002E7246 /* APIRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIRouter.swift; sourceTree = "<group>"; };
+		181B5F282365E5D7002E7246 /* Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		181B5F2A2365E5EE002E7246 /* UserDefault.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefault.swift; sourceTree = "<group>"; };
+		181B5F2C2365E610002E7246 /* DateFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateFormatter.swift; sourceTree = "<group>"; };
+		36251EE0B73287A6294CC534 /* Pods-fastiniTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fastiniTests.debug.xcconfig"; path = "Target Support Files/Pods-fastiniTests/Pods-fastiniTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3FAF24DECBD1E215ECB79A41 /* Pods-fastiniUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fastiniUITests.release.xcconfig"; path = "Target Support Files/Pods-fastiniUITests/Pods-fastiniUITests.release.xcconfig"; sourceTree = "<group>"; };
+		687A80B21BEA2E6761CB0844 /* Pods_fastiniUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_fastiniUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D3BB7BE37BD706C208F4B4A /* Pods-fastini.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fastini.debug.xcconfig"; path = "Target Support Files/Pods-fastini/Pods-fastini.debug.xcconfig"; sourceTree = "<group>"; };
+		B2369206FD9BD7E66DAD2FA5 /* Pods_fastini.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_fastini.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDAAC7F87D0A6D3C9943B5C9 /* Pods-fastini.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fastini.release.xcconfig"; path = "Target Support Files/Pods-fastini/Pods-fastini.release.xcconfig"; sourceTree = "<group>"; };
+		FCBF5B092EAB9F773A32E418 /* Pods-fastiniUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fastiniUITests.debug.xcconfig"; path = "Target Support Files/Pods-fastiniUITests/Pods-fastiniUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FD478A3DB748EC61845842E5 /* Pods-fastiniTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fastiniTests.release.xcconfig"; path = "Target Support Files/Pods-fastiniTests/Pods-fastiniTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AF13439BA4D03BAA8404ACB /* Pods_fastini.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2BC2E7CFFB15C52DC2007A8 /* Pods_fastiniTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B13360962EE18AF80E0DD50E /* Pods_fastiniUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +116,8 @@
 				181B5EFA2364680A002E7246 /* fastiniTests */,
 				181B5F052364680A002E7246 /* fastiniUITests */,
 				181B5EE223646808002E7246 /* Products */,
+				D94554D15EE749F694EC660E /* Pods */,
+				8E815C93730C7B77FFFB2E58 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +134,13 @@
 		181B5EE323646808002E7246 /* fastini */ = {
 			isa = PBXGroup;
 			children = (
+				181B5F212365E46F002E7246 /* Networking */,
+				181B5F182365E252002E7246 /* Utilites */,
+				181B5F192365E25B002E7246 /* Scenarios */,
 				181B5EE423646808002E7246 /* AppDelegate.swift */,
 				181B5EE623646808002E7246 /* SceneDelegate.swift */,
 				181B5EE823646808002E7246 /* ViewController.swift */,
+				181B5F142364AE52002E7246 /* SideMenuViewController.swift */,
 				181B5EEA23646808002E7246 /* Main.storyboard */,
 				181B5EED2364680A002E7246 /* Assets.xcassets */,
 				181B5EEF2364680A002E7246 /* LaunchScreen.storyboard */,
@@ -128,6 +167,98 @@
 			path = fastiniUITests;
 			sourceTree = "<group>";
 		};
+		181B5F182365E252002E7246 /* Utilites */ = {
+			isa = PBXGroup;
+			children = (
+				181B5F2A2365E5EE002E7246 /* UserDefault.swift */,
+				181B5F2C2365E610002E7246 /* DateFormatter.swift */,
+				181B5F282365E5D7002E7246 /* Alert.swift */,
+				181B5F162364B0AC002E7246 /* CardView.swift */,
+			);
+			path = Utilites;
+			sourceTree = "<group>";
+		};
+		181B5F192365E25B002E7246 /* Scenarios */ = {
+			isa = PBXGroup;
+			children = (
+				181B5F1A2365E27E002E7246 /* Login */,
+				181B5F1B2365E28D002E7246 /* Registration */,
+				181B5F1C2365E29F002E7246 /* HomeScreen&SideMenu */,
+				181B5F1D2365E2B0002E7246 /* ShoppingCart&CheckOut */,
+				181B5F1E2365E2F4002E7246 /* MyOrders */,
+			);
+			path = Scenarios;
+			sourceTree = "<group>";
+		};
+		181B5F1A2365E27E002E7246 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				181B5F1F2365E431002E7246 /* LoginViewControllerViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		181B5F1B2365E28D002E7246 /* Registration */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Registration;
+			sourceTree = "<group>";
+		};
+		181B5F1C2365E29F002E7246 /* HomeScreen&SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "HomeScreen&SideMenu";
+			sourceTree = "<group>";
+		};
+		181B5F1D2365E2B0002E7246 /* ShoppingCart&CheckOut */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "ShoppingCart&CheckOut";
+			sourceTree = "<group>";
+		};
+		181B5F1E2365E2F4002E7246 /* MyOrders */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MyOrders;
+			sourceTree = "<group>";
+		};
+		181B5F212365E46F002E7246 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				181B5F232365E557002E7246 /* APIClient.swift */,
+				181B5F242365E557002E7246 /* APIRouter.swift */,
+				181B5F222365E557002E7246 /* Constants.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		8E815C93730C7B77FFFB2E58 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B2369206FD9BD7E66DAD2FA5 /* Pods_fastini.framework */,
+				13FB5C5591A72B5A6E252748 /* Pods_fastiniTests.framework */,
+				687A80B21BEA2E6761CB0844 /* Pods_fastiniUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D94554D15EE749F694EC660E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8D3BB7BE37BD706C208F4B4A /* Pods-fastini.debug.xcconfig */,
+				DDAAC7F87D0A6D3C9943B5C9 /* Pods-fastini.release.xcconfig */,
+				36251EE0B73287A6294CC534 /* Pods-fastiniTests.debug.xcconfig */,
+				FD478A3DB748EC61845842E5 /* Pods-fastiniTests.release.xcconfig */,
+				FCBF5B092EAB9F773A32E418 /* Pods-fastiniUITests.debug.xcconfig */,
+				3FAF24DECBD1E215ECB79A41 /* Pods-fastiniUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +266,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 181B5F0B2364680A002E7246 /* Build configuration list for PBXNativeTarget "fastini" */;
 			buildPhases = (
+				58AFE18C36E75E69264DC00C /* [CP] Check Pods Manifest.lock */,
 				181B5EDD23646808002E7246 /* Sources */,
 				181B5EDE23646808002E7246 /* Frameworks */,
 				181B5EDF23646808002E7246 /* Resources */,
+				2C44C0F78DABD73EDE49A780 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +285,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 181B5F0E2364680A002E7246 /* Build configuration list for PBXNativeTarget "fastiniTests" */;
 			buildPhases = (
+				4E1614FD329D4369F6350CB4 /* [CP] Check Pods Manifest.lock */,
 				181B5EF32364680A002E7246 /* Sources */,
 				181B5EF42364680A002E7246 /* Frameworks */,
 				181B5EF52364680A002E7246 /* Resources */,
@@ -170,6 +304,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 181B5F112364680A002E7246 /* Build configuration list for PBXNativeTarget "fastiniUITests" */;
 			buildPhases = (
+				83D9661C94373EFDD259CF17 /* [CP] Check Pods Manifest.lock */,
 				181B5EFE2364680A002E7246 /* Sources */,
 				181B5EFF2364680A002E7246 /* Frameworks */,
 				181B5F002364680A002E7246 /* Resources */,
@@ -254,14 +389,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2C44C0F78DABD73EDE49A780 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-fastini/Pods-fastini-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-fastini/Pods-fastini-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-fastini/Pods-fastini-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E1614FD329D4369F6350CB4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-fastiniTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58AFE18C36E75E69264DC00C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-fastini-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83D9661C94373EFDD259CF17 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-fastiniUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		181B5EDD23646808002E7246 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				181B5F2D2365E610002E7246 /* DateFormatter.swift in Sources */,
+				181B5F152364AE52002E7246 /* SideMenuViewController.swift in Sources */,
+				181B5F272365E557002E7246 /* APIRouter.swift in Sources */,
+				181B5F202365E431002E7246 /* LoginViewControllerViewController.swift in Sources */,
+				181B5F2B2365E5EE002E7246 /* UserDefault.swift in Sources */,
 				181B5EE923646808002E7246 /* ViewController.swift in Sources */,
+				181B5F262365E557002E7246 /* APIClient.swift in Sources */,
 				181B5EE523646808002E7246 /* AppDelegate.swift in Sources */,
+				181B5F252365E557002E7246 /* Constants.swift in Sources */,
 				181B5EE723646808002E7246 /* SceneDelegate.swift in Sources */,
+				181B5F292365E5D7002E7246 /* Alert.swift in Sources */,
+				181B5F172364B0AC002E7246 /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +662,7 @@
 		};
 		181B5F0C2364680A002E7246 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D3BB7BE37BD706C208F4B4A /* Pods-fastini.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -450,6 +681,7 @@
 		};
 		181B5F0D2364680A002E7246 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDAAC7F87D0A6D3C9943B5C9 /* Pods-fastini.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -468,6 +700,7 @@
 		};
 		181B5F0F2364680A002E7246 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36251EE0B73287A6294CC534 /* Pods-fastiniTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +723,7 @@
 		};
 		181B5F102364680A002E7246 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD478A3DB748EC61845842E5 /* Pods-fastiniTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +746,7 @@
 		};
 		181B5F122364680A002E7246 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCBF5B092EAB9F773A32E418 /* Pods-fastiniUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +767,7 @@
 		};
 		181B5F132364680A002E7246 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FAF24DECBD1E215ECB79A41 /* Pods-fastiniUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
